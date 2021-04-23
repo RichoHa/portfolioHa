@@ -3,3 +3,50 @@
     padding: 0;
     box-sizing: content-box;
 }
+
+/* Colours to use */
+body{
+    /* Colour and styles */
+    background-image: linear-gradient(to right, #424242 , #757575);
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+
+    /* Formatting */
+    display: block;
+    text-align: center;
+    margin: 20px;
+}
+
+
+/* Navigation Link */
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+#navigation{
+    display:flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    border-bottom: 3px solid white;
+}
+
+@media only screen and (max-width:  1000px){
+    #navigation{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+#navigationLinks{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Navigation Link */
