@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: content-box;
+    font-size: 1.5em;
 }
 
 /* Colours to use */
@@ -34,12 +35,6 @@ a:link, a:visited{
     border-bottom: 3px solid white;
 }
 
-@media only screen and (max-width:  1000px){
-    #navigation{
-        flex-direction: column;
-        justify-content: center;
-    }
-}
 
 #navigationLinks{
     display: flex;
@@ -49,4 +44,88 @@ a:link, a:visited{
     justify-content: center;
 }
 
-/* Navigation Link */
+/* INformation Section */
+
+#information{
+    padding-top: 20px;
+}
+
+
+/* INformation Section 1*/
+#aboutMe, #project1{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#aboutMeTitle, #project1Title{
+    display: flex;
+    flex-direction: column;
+    justify-self: right;
+    border-right: 3px solid white;
+    padding-right: 20px;
+    text-align: end;
+    gap:20px;
+}
+
+#aboutMeTitle h3, #project1Title h3{
+    margin:0;
+}
+
+#aboutMe p, #project1 p{
+    line-height: 1.3em;
+    font-size: 1.3em;
+    margin:0;
+
+}
+
+#aboutMe img, #project1 img{
+    margin-right:20px;
+}
+
+
+@media only screen and (max-width:  1300px){
+    /* Navigation Link*/
+    #navigation{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* INformation Section 1*/
+
+    #aboutMe, #project1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap:0;
+        border-bottom: 3px solid white;
+        padding-bottom: 20px;
+    }
+
+    #aboutMe p, #project1 p{
+        padding-bottom:20px;
+    }
+
+    #aboutMeTitle, #project1Title{
+        border-right: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom:20px
+    }
+
+    #aboutMe img, #project1 img{
+        max-width: 60%;
+
+    }
+
+}
+
+a:hover{
+    transform: scale(1.3);
+    color: greenyellow;
+}
