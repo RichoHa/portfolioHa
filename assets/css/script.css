@@ -55,7 +55,7 @@ a:link, a:visited{
 
 
 /* INformation Section 1*/
-#aboutMe, #project1, #project2{
+#aboutMe, #project1, #project2, #project3{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1.5rem;
@@ -63,7 +63,7 @@ a:link, a:visited{
     margin-bottom: 2em;
 }
 
-#aboutMeTitle, #project1Title, #project2Title{
+#aboutMeTitle, #project1Title, #project2Title, #project3Title{
     display: flex;
     flex-direction: column;
     justify-self: right;
@@ -73,22 +73,27 @@ a:link, a:visited{
     gap:20px;
 }
 
-#aboutMeTitle h3, #project1Title h3, #project2Title h3{
+#aboutMeTitle h3, #project1Title h3, #project2Title h3, #project3Title h3{
     margin:0;
     font-size: 1.3em;
 }
 
-#aboutMe p, #project1 p, #project2 p{
+#aboutMe p, #project1 p, #project2 p, #project3 p{
     line-height: 1.3em;
     font-size: 1.3em;
     margin:0;
 
 }
 
-#aboutMe img, #project1 img, #project2 img{
+#aboutMe img, #project1 img, #project2 img, #project3 img{
     margin-right:20px;
     max-height: 500px;
     max-width: 500px;
+}
+
+a:hover{
+    transform: scale(1.3);
+    color: greenyellow;
 }
 
 
@@ -101,7 +106,7 @@ a:link, a:visited{
 
     /* INformation Section 1*/
 
-    #aboutMe, #project1, #project2{
+    #aboutMe, #project1, #project2, #project3{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -112,11 +117,11 @@ a:link, a:visited{
         padding-bottom: 20px;
     }
 
-    #aboutMe p, #project1 p, #project2 p{
+    #aboutMe p, #project1 p, #project2 p, #project3 p{
         padding-bottom:20px;
     }
 
-    #aboutMeTitle, #project1Title, #project2Title{
+    #aboutMeTitle, #project1Title, #project2Title, #project3Title{
         border-right: 0;
         display: flex;
         flex-direction: column;
@@ -124,15 +129,10 @@ a:link, a:visited{
         padding-bottom:20px
     }
 
-    #aboutMe img, #project1 img, #project2 img{
+    #aboutMe img, #project1 img, #project2 img, #project3 img{
         max-height: 500px;
         max-width: 500px;
 
     }
 
-}
-
-a:hover{
-    transform: scale(1.3);
-    color: greenyellow;
 }
