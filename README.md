@@ -27,4 +27,4 @@ programming career and demonstrate the projects which I have conducted.
 ![User Story Map](./assets/images/desktop-image.PNG)
 
 ## Collaborators
-Richard (Duc) Ha: 0404545580 or Richard.dqh@gmail.com
+Richard (Duc) Ha: 0404 545 580 or Richard.dqh@gmail.com.
